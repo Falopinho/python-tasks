@@ -1,0 +1,3 @@
+c = str(input('Em que cidade você nasceu? ').strip())
+print(c[:5].lower() == 'santo')
+print('='* 20, c, '='* 20)

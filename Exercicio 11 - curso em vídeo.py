@@ -1,0 +1,9 @@
+import math
+larg = float(input('Largura da Parede '))
+alt = float(input('Altura da Parede '))
+area = larg * alt
+print('Sua parede tem a dimensão de {} x {} e sua área é {}m²'.format(larg, alt, area))
+tinta = area / 2
+print('Para pintar essa área você precisará de {}l de tinta'.format(tinta))
+unidade = tinta / 2
+print('Isso da aproximadamente {} Latas de tinta'.format(math.ceil(unidade)))
