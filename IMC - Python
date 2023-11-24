@@ -1,5 +1,3 @@
-
-
 print("Calculadora de IMC")
 print("Coloque os seus dados na calculadora e calcule o seu IMC:")
 
